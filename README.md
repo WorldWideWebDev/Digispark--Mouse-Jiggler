@@ -66,6 +66,8 @@ Once installed, go-to Tools –> Board and select “Digispark – Default 16.5m
 
 Next go-to, Tools –>Programmer and set it as “USBtinyISP”
 
+((( An issue i have found personally in my experience with this , when attemting to select USBtinyISP as the programmer i cannot for the life of me find it and select both the correct board and programmer. The work around i have used is to visit the Arduino site, download Arduino 1.8.9 in zip form NOT THE INSTALLER!! open the ZIP and place the floder on my desktop, Open Arduino from within the folder and access the 1.8.9 version and all is well? Without further ado i select the board the programmer and continue to flash the device. I do not undertand why all the programmers are not available on my computers running the newer version of Arduino but using the older version gets me out of trouble with all older sketches which are out there and freely available.   )))
+
 We have created an opensource simple Mouse Jiggler sketch (program) for the Digispark v3 which moves the cursor every 10-30 seconds in a square pattern. Download and open it in Arduino IDE.
 Download: MouseJiggler.ino
 Click on the “Upload” button to compile the sketch and upload it to the Digispark.
